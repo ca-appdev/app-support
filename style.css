@@ -1,0 +1,104 @@
+:root {
+  --bg-top: #141424;
+  --bg-bot: #0a0b14;
+  --panel: #141522;
+  --border: #2a2d3c;
+  --white: #f4f6fa;
+  --grey: #969cac;
+  --green: #33cc8c;
+  --yellow: #f2c940;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, var(--bg-top), var(--bg-bot));
+  background-attachment: fixed;
+  color: var(--white);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+
+header.site {
+  text-align: center;
+  padding: 24px 0 8px;
+}
+
+.logo {
+  display: inline-flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.logo span {
+  width: 26px; height: 26px;
+  border-radius: 7px;
+  background: #1c1f2e;
+}
+.logo span.on { background: var(--green); }
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 36px 0 10px;
+  color: var(--white);
+}
+.tagline { color: var(--green); font-weight: 600; margin: 0; }
+.muted { color: var(--grey); }
+.small { font-size: 0.9rem; }
+
+a { color: var(--green); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+p, li { color: #d7dae3; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px 28px;
+  margin-top: 24px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--green);
+  color: #08120c;
+  font-weight: 700;
+  padding: 12px 22px;
+  border-radius: 14px;
+  margin: 8px 6px 0;
+}
+.btn.secondary {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid var(--border);
+}
+
+nav.links { text-align: center; margin-top: 28px; }
+nav.links a { margin: 0 12px; font-weight: 600; }
+
+footer {
+  text-align: center;
+  color: var(--grey);
+  font-size: 0.85rem;
+  margin-top: 56px;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+
+.back { display: inline-block; margin-bottom: 8px; font-weight: 600; }
