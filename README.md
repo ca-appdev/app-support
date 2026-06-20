@@ -1,6 +1,6 @@
-# Tap Rush Support Site
+# Tiledash Support Site
 
-This repository hosts the public Tap Rush support and privacy pages with GitHub Pages.
+This repository hosts the public Tiledash support and privacy pages with GitHub Pages.
 
 - Support: https://ca-appdev.github.io/app-support/support.html
 - Privacy Policy: https://ca-appdev.github.io/app-support/privacy.html
